@@ -35,7 +35,7 @@ public class Program
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        app.MapGet("/hello", () => "Hello from your Azure API running .NET 9");
+        app.MapGet("/hello", () => "Hello from your Render.com running .NET 9");
 
         // Enable Swagger in development
         if (app.Environment.IsDevelopment())
